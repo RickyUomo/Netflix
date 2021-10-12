@@ -1,4 +1,4 @@
 # Rebuild Netflix Application using React, styledcomponents, firebase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Project [Link](https://github.com/facebook/create-react-app), still in construction.
 
