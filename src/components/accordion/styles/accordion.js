@@ -14,12 +14,13 @@ export const Inner = styled.div`
 `;
 
 export const Frame = styled.div`
-    max-width: 1200px;
+    ${'' /* max-width: 100%; */}
 `
 
 export const Item = styled.div`
     color: white;
     margin-bottom: 10px;
+    box-sizing: border-box;
 
     &:first-of-type {
         margin-top: 3em;
@@ -51,7 +52,7 @@ export const Header = styled.div`
     padding: 0.8em 1.2em 0.8em 1.2em;
     user-select: none;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
 
     img {
         filter: brightness(0) invert(1);
@@ -69,7 +70,6 @@ export const Header = styled.div`
 
 export const Body = styled.body`
     max-width: 1200px;
-    transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
     font-size: 22px;
     font-weight: normal;
     line-height: normal;
@@ -78,7 +78,6 @@ export const Body = styled.body`
     user-select: none;
     align-items: center;
     color: white;
-    width: 100%;
     box-sizing: border-box;
     
     @media (max-width: 600px) {
